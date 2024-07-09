@@ -20,19 +20,17 @@ jobs:
 
       - uses: mamba-org/setup-micromamba@v1
         with:
-          micromamba-version: '1.5.6-0' # any version from https://github.com/mamba-org/micromamba-releases
+          micromamba-version: '1.5.8-0' # any version from https://github.com/mamba-org/micromamba-releases
           environment-file: environment.yml
-          init-shell: >-
-            bash
-            zsh
+          init-shell: bash
           cache-environment: true
-          post-cleanup: 'all'
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install ipykernel
         run: |
+          which python
           python -m ipykernel install --user --name oss-culture-scipy2024
           quarto check jupyter
 
