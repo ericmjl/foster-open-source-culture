@@ -1,0 +1,7 @@
+name: oss-culture-scipy2024
+channels:
+- conda-forge
+dependencies:
+- python=3.11
+- ipykernel
+- jupyter

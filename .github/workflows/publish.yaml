@@ -18,6 +18,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - uses: mamba-org/setup-micromamba@v1
+        with:
+          micromamba-version: '1.5.6-0' # any version from https://github.com/mamba-org/micromamba-releases
+          environment-file: environment.yml
+          init-shell: >-
+            bash
+          cache-environment: true
+          post-cleanup: 'all'
+
+      - name: Install ipykernel
+        run: python -m ipykernel install --user --name oss-culture-scipy2024
+
+
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
