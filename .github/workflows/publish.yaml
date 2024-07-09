@@ -24,6 +24,8 @@ jobs:
           environment-file: environment.yml
           init-shell: >-
             bash
+            sh
+            zsh
           cache-environment: true
           post-cleanup: 'all'
 
