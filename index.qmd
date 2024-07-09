@@ -1,0 +1,236 @@
+---
+author: Eric J. Ma
+title: "🌟 How to foster an open source culture in your data science team"
+format:
+  revealjs:
+    slide-number: c/t
+execute:
+  echo: true
+  eval: false
+  cache: true
+jupyter: oss-culture-scipy2024
+footer: Made with ❤️ by Eric J. Ma using Quarto
+---
+
+## 💁🏻‍♂️ About Me
+
+::: incremental
+[Sr. Principal]{style="color: orange"} [Data Scientist]{style="color: red"}, [DSAI]{style="color: blue"} ([Research]{style="color:green"}), [Moderna]{style="color:maroon"}
+
+-   [Moderna]{style="color:maroon"}: Here to make medicines.
+-   [Research]{style="color:green"}: Biology and chemistry nerd
+-   [DSAI]{style="color:blue"}: Computer nerd
+-   [Data Scientist]{style="color:red"}: Data nerd
+-   [Sr. Principal]{style="color:orange"}: Person who has team lead responsibilities.
+:::
+
+## 💁🏻‍♂️ About Me (Take 2)
+
+Open Source Contributor, Developer, and Educator
+
+::: panel-tabset
+## Personal
+
+-   [pyjanitor-devs/pyjanitor](https://github.com/pyjanitor-devs/pyjanitor/pulls?q=is:pr+author:@me+)
+-   [ericmjl/nxviz](https://github.com/ericmjl/nxviz/pulls?q=is:pr+author:@me+)
+-   [ericmjl/llamabot](https://github.com/ericmjl/llamabot/pulls?q=is:pr+author:@me+)
+
+## Community
+
+-   [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib/pulls?q=is:pr+author:@me+)
+-   [pymc-devs/pymc](https://github.com/pymc-devs/pymc/pulls?q=is:pr+author:@me+)
+-   [networkx/networkx](https://github.com/networkx/networkx/pulls?q=is:pr+author:@me+)
+:::
+
+::: {callout-note}
+I move through projects as my needs and interests evolve.
+:::
+
+## Open source  was formative for my thinking
+
+- Year: 2015
+- Project: Matplotlib.
+- Task: MEP12 examples gallery
+
+![](./images/first-mpl-pr.webp)
+
+## Me, the newbie, was given simple tasks...
+
+::: panel-tabset
+## Old
+
+```{python}
+#| echo: true
+#| eval: false
+#| code-line-numbers: "1,"
+from pylab import *
+
+x = arange(0, 3, 1000)
+y = 0.32 * x + 35
+
+plot(x, y)
+```
+
+## New
+
+```{python}
+#| echo: true
+#| eval: false
+#| code-line-numbers: "1,2"
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.arange(0, 3, 1000)
+y = 0.32 * x + 35
+
+plt.plot(x, y)
+```
+:::
+
+The training steps, and repetition, helped me grow my skillset.
+
+## ...88 PRs later...
+
+![My first contributions to the open source world were with matplotlib.](./images/matplotlib.webp)
+
+
+## ...then I realized software skills mattered...
+
+{{< video https://www.youtube.com/watch?v=cpbtcsGE0OA width="560" height="315" >}}
+
+We need to write code. Organizing that code (building software) will massively save our sanity. (see [blog](https://ericmjl.github.io/blog/2024/4/17/how-llms-can-accelerate-data-science/))
+
+## ...and imported ways of working to my work and home team...
+
+::: panel-tabset
+## Opened
+
+Every data scientist can see every codebase by all other data science teams (unless there is sensitive information).
+
+## Refactored
+
+Investments here clarify one's thinking about our domain problem.
+
+We cut future frustrations untangling messy code and fragile configuration.
+
+## Tested
+
+Investment of time here ensures the correctness of our work.
+
+We spend much less time in the future being burned by changes that introduced subtle bugs.
+
+## Documented
+
+Investments here yield multiplicative effects on impact.
+
+Mirroring sprints, [we run quarterly docathons](https://ericmjl.github.io/blog/2024/6/30/two-years-of-docathons-insights-and-lessons-learned/) that provide focused time for us to write high impact docs with high ROI.
+:::
+
+## ...creating cultural compatibility with OSS!
+
+I wanted to instill a compatible culture of empowerment and self-directed agency within the Moderna DSAI teams:
+
+::: incremental
+-   Collaboration: stewarded and shared ownership of code.
+-   Contribution: co-creation of new features.
+-   Community: increased investment in ecosystem.
+:::
+
+## CBOSS vs. CDOSS
+
+[Articulated by Travis Oliphant](https://www.linkedin.com/pulse/who-governs-open-source-project-you-depend-travis-oliphant/), these are two different flavours of open source software.
+
+::: incremental
+-   CBOSS: **C**ompany-**B**acked **O**pen **S**ource **S**oftware
+-   CDOSS: **C**ommunity-**D**riven **O**pen **S**ource **S**oftware
+:::
+
+## Diverse motivations
+
+::: panel-tabset
+## Services
+
+-   [Quansight](https://quansight.com/)
+-   [PyMC Labs](https://www.pymc-labs.com/)
+-   [Enthought](https://www.enthought.com/)
+-   ...
+
+Consulting around open source sustains and grows demand for open source software, which sustains consulting business.
+
+## Products
+
+-   [Posit PBC](https://posit.co/): Shiny/R/tidyverse
+-   [Union.ai](https://www.union.ai/features): Flyte
+-   NVIDIA: RAPIDS
+-   ...
+
+Community engagement gives a customer path to profitable services.
+
+## Talent Acquisition
+
+-   TD Ameritrade: [STUMPY](https://github.com/TDAmeritrade/stumpy)
+-   Novartis: [RDKit](https://github.com/rdkit/rdkit)
+-   Moderna: [SeqLike](https://github.com/modernatx/seqlike)
+-   ...
+
+OSS releases are primarily a marketing tool to attract new talent. OSS release has no direct impact on core products & services.
+:::
+
+---
+
+[CBOSS must fit strategically within organizational motivations]{style="font-size:120px"}
+
+---
+
+## Interested parties have motivations
+
+| Party        | Interest                                                |
+|--------------|---------------------------------------------------------|
+| [Data Science]{style="color:red"} | [Building a professional portfolio.]{style="color:red"}                      |
+| [Legal]{style="color:orange"}        | [Protecting company IP.]{style="color:orange"} |
+| [Management]{style="color:green"}   | [Minimizing operational disruption.]{style="color:green"}                      |
+| [Executive]{style="color:blue"}    | [Enhancing reputation & value creation.]{style="color:blue"}             |
+
+You may need \>1 of these parties to have buy-in before you can release open source software.
+
+## Ways to articulate
+
+::: {.panel-tabset}
+
+## Data Science
+
+**Goal:** Build professional portfolio.
+
+- Long-term investment in company's reputation as a technologically competent company.
+- Professional development opportunity for individual contributors.
+
+## Legal
+
+**Goal:** Protect company IP.
+
+- Show evidence that open source release is not novel IP, using existing literature.
+- Articulate criteria used to evaluate whether contributions from within the company are open source-able or not.
+
+## Management
+
+**Goal:** Minimize operational disruption.
+
+- Articulate set schedule for activities related to stewardship of OSS software, such as reviewing PRs.
+- Articulate prospective leverage in internal work from external contributions.
+
+## Executive
+
+**Goal:** Enhance reputation and value creation
+
+- Identify peer group companies that are engaged in similar activities.
+- Articulate prospective leverage in internal work from external contributions.
+:::
+
+## How do we foster an open source culture within our companies?
+
+::: incremental
+1. Import open source ways of working into the team.
+2. Articulate value to multiple stakeholders in a way that is aligned with their interests.
+:::
+
+# ⭐️ Thank you
