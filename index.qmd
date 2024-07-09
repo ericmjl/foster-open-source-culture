@@ -4,10 +4,10 @@ title: "🌟 How to foster an open source culture in your data science team"
 format:
   revealjs:
     slide-number: c/t
-execute:
-  echo: true
-  eval: false
-  cache: true
+# execute:
+#   echo: true
+#   eval: false
+#   cache: true
 jupyter: oss-culture-scipy2024
 footer: Made with ❤️ by Eric J. Ma using Quarto
 ---
