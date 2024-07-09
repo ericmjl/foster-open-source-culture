@@ -27,11 +27,14 @@ jobs:
           cache-environment: true
           post-cleanup: 'all'
 
-      - name: Install ipykernel
-        run: python -m ipykernel install --user --name oss-culture-scipy2024
-
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install ipykernel
+        run: |
+          python -m ipykernel install --user --name oss-culture-scipy2024
+          quarto check jupyter
+
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
