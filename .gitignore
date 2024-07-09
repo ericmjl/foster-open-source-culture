@@ -1,0 +1,5 @@
+_static
+.DS_Store
+*_files
+.jupyter_cache
+index.html
