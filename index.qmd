@@ -100,6 +100,7 @@ The training steps, and repetition, helped me grow my skillset.
 
 ## 3️⃣ ...I knew that software skills mattered in data science...
 
+-   One-off analyses have less guarantees of sustained impact compared to reusable tools.
 -   [Hadley Wickham: You can't do data science in a GUI](https://www.youtube.com/watch?v=cpbtcsGE0OA)
 -   Thinking like a toolbuilder, and a software developer, will help elevate our work as a data scientist.
 
