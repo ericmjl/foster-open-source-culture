@@ -32,7 +32,7 @@ Open Source Contributor, Developer, and Educator
 
 -   [pyjanitor-devs/pyjanitor](https://github.com/pyjanitor-devs/pyjanitor/pulls?q=is:pr+author:@me+)
 -   [ericmjl/Network-Analysis-Made-Simple](https://github.com/ericmjl/Network-Analysis-Made-Simple)
--   [ericmjl/llamabot](https://github.com/ericmjl/llamabot/pulls?q=is:pr+author:@me+)
+-   [ericmjl/llamabot](https://github.com/ericmjl/llamabot/pulls?q=is:pr+author:@me+)*
 
 ## Community
 
