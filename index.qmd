@@ -161,9 +161,9 @@ Consulting around open source sustains and grows demand for open source software
 
 ## Products
 
--   [Posit PBC](https://posit.co/): Shiny/R/tidyverse
+-   [Coiled](https://www.coiled.io/): Dask
 -   [Union.ai](https://www.union.ai/features): Flyte
--   NVIDIA: RAPIDS
+-   [NVIDIA](https://www.nvidia.com/en-us/): RAPIDS
 -   ...
 
 Community engagement gives a customer path to profitable services.
@@ -180,7 +180,7 @@ OSS releases are primarily a marketing tool to attract new talent. OSS release h
 
 ---
 
-[CBOSS must fit strategically within organizational motivations]{style="font-size:120px"}
+[Company-Backed Open Source Software must fit strategically within organizational motivations]{style="font-size:92px"}
 
 ---
 
