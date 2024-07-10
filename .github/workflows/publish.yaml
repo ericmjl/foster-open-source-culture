@@ -24,6 +24,7 @@ jobs:
           environment-file: environment.yml
           init-shell: bash
           cache-environment: true
+          generate-run-shell: true
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -34,12 +35,11 @@ jobs:
           python -m ipykernel install --user --name oss-culture-scipy2024
           quarto check jupyter
 
-
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          # to: html # If set, it will be equivalent to `quarto render --to html`
           path: ./index.qmd # By default, the current working dir is used i.e `quarto render .`
+
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
