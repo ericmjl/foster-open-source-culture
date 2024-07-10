@@ -101,36 +101,37 @@ The training steps, and repetition, helped me grow my skillset.
 
 ## 3️⃣ ...I knew that software skills mattered in data science...
 
-{{< video https://www.youtube.com/watch?v=cpbtcsGE0OA width="560" height="315" >}}
-
-We need to write code. Organizing that code (building software) will massively save our sanity. (see [blog](https://ericmjl.github.io/blog/2024/4/17/how-llms-can-accelerate-data-science/))
+- [Hadley Wickham: You can't do data science in a GUI](https://www.youtube.com/watch?v=cpbtcsGE0OA)
+- Thinking like a toolbuilder, and a software developer, will help elevate our work as a data scientist.
 
 ## 4️⃣ ...and imported ways of working to my work and home team...
 
 ::: panel-tabset
 ## Open
 
-Every data scientist can see every codebase by all other data science teams (unless there is sensitive information).
+Everything is viewable, clone-able, hackable, and contributable.
 
 ## Deploy
+
+We resist doing a treadmill of one-off projects.
 
 We build high power tools for ourselves, laboratory scientists, and computational scientists.
 
 ## Refactor
 
-Investments here clarify one's thinking about our domain problem.
+We invest here to clarify our thinking about our domain problem.
 
 We cut future frustrations untangling messy code and fragile configuration.
 
 ## Test
 
-Investment of time here ensures the correctness of our work.
+We invest time here to ensure the correctness of our work.
 
 We spend much less time in the future being burned by changes that introduced subtle bugs.
 
 ## Document
 
-Investments here yield multiplicative effects on impact.
+Automation scales labour. We invest in documentation to scale our brain.
 
 Mirroring sprints, [we run quarterly docathons](https://ericmjl.github.io/blog/2024/6/30/two-years-of-docathons-insights-and-lessons-learned/) that provide focused time for us to write high impact docs with high ROI.
 :::
