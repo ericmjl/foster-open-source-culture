@@ -109,23 +109,27 @@ We need to write code. Organizing that code (building software) will massively s
 ## 4️⃣ ...and imported ways of working to my work and home team...
 
 ::: panel-tabset
-## Opened
+## Open
 
 Every data scientist can see every codebase by all other data science teams (unless there is sensitive information).
 
-## Refactored
+## Deploy
+
+We build high power tools for ourselves, laboratory scientists, and computational scientists.
+
+## Refactor
 
 Investments here clarify one's thinking about our domain problem.
 
 We cut future frustrations untangling messy code and fragile configuration.
 
-## Tested
+## Test
 
 Investment of time here ensures the correctness of our work.
 
 We spend much less time in the future being burned by changes that introduced subtle bugs.
 
-## Documented
+## Document
 
 Investments here yield multiplicative effects on impact.
 
