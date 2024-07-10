@@ -194,6 +194,15 @@ OSS releases are primarily a marketing tool to attract new talent. OSS release h
 
 ---
 
+## What about goodwill?
+
+::: incremental
+- Giving back _is_ my personal motivation!
+- Can be a deep source of motivation for the individual.
+- Reality: Goodwill rarely is the slam-dunk winning argument.
+- We need to study individual motivations.
+:::
+
 ## 🎯 Interested parties have motivations
 
 | Party        | Interest                                                |
