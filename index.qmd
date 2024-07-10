@@ -136,7 +136,7 @@ We develop software like the best of the OSS world.
 
 OSS is under-funded and under-staffed, so there is much investment in automation and documentation.
 
-Automation scales labour. Documentation scales our brain.
+🤖 Automation scales labour. 📖 Documentation scales our brain.
 
 Mirroring sprints, [we run quarterly docathons](https://ericmjl.github.io/blog/2024/6/30/two-years-of-docathons-insights-and-lessons-learned/) that provide focused time for us to write high impact docs with high ROI.
 :::
@@ -204,8 +204,8 @@ OSS releases are primarily a marketing tool to attract new talent. OSS release h
 ::: incremental
 -   Giving back *is* my personal motivation!
 -   Can be a deep source of motivation for the individual.
--   Reality: goodwill rarely is the slam-dunk winning argument.
--   We need to study individual motivations.
+-   However, goodwill rarely is the slam-dunk winning argument.
+-   We need to study stakeholder motivations.
 :::
 
 ## 🎯 Interested parties have motivations
