@@ -4,7 +4,7 @@ title: "🌟 How to foster an open source culture in your data science team"
 format:
   revealjs:
     slide-number: c/t
-footer: Made with ❤️ by Eric J. Ma using Quarto
+footer: https://ericmjl.github.io/foster-open-source-culture
 ---
 
 ## 💁🏻‍♂️ About Me
