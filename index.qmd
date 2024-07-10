@@ -4,7 +4,7 @@ title: "🌟 How to foster an open source culture in your data science team"
 format:
   revealjs:
     slide-number: c/t
-footer: https://ericmjl.github.io/foster-open-source-culture
+footer: ericmjl.github.io/foster-open-source-culture
 ---
 
 ## 💁🏻‍♂️ About Me
@@ -41,7 +41,18 @@ Open Source Contributor, Developer, and Educator
 I move through projects as my needs and interests evolve.
 :::
 
-## Open source  was formative for my thinking
+## ❓ Today's question
+
+> Q: How do we foster a culture of open source within our data science team?
+
+::: incremental
+1. Import open source ways of working into the team.
+2. Articulate value to multiple stakeholders in a way that is aligned with their interests.
+:::
+
+# 💡 Idea 1: Import OSS culture
+
+## 🧐 Open source  was formative for my thinking
 
 - Year: 2015
 - Project: Matplotlib.
@@ -49,7 +60,7 @@ I move through projects as my needs and interests evolve.
 
 ![](./images/first-mpl-pr.webp)
 
-## Me, the newbie, was given simple tasks...
+## 1️⃣ Me, the newbie, was given simple tasks...
 
 ::: panel-tabset
 ## Old
@@ -78,18 +89,18 @@ plt.plot(x, y)
 
 The training steps, and repetition, helped me grow my skillset.
 
-## ...88 PRs later...
+## 2️⃣ ...88 PRs later...
 
 ![My first contributions to the open source world were with matplotlib.](./images/matplotlib.webp)
 
 
-## ...then I realized software skills mattered...
+## 3️⃣ ...then I realized software skills mattered...
 
 {{< video https://www.youtube.com/watch?v=cpbtcsGE0OA width="560" height="315" >}}
 
 We need to write code. Organizing that code (building software) will massively save our sanity. (see [blog](https://ericmjl.github.io/blog/2024/4/17/how-llms-can-accelerate-data-science/))
 
-## ...and imported ways of working to my work and home team...
+## 4️⃣ ...and imported ways of working to my work and home team...
 
 ::: panel-tabset
 ## Opened
@@ -115,7 +126,7 @@ Investments here yield multiplicative effects on impact.
 Mirroring sprints, [we run quarterly docathons](https://ericmjl.github.io/blog/2024/6/30/two-years-of-docathons-insights-and-lessons-learned/) that provide focused time for us to write high impact docs with high ROI.
 :::
 
-## ...creating cultural compatibility with OSS!
+## 5️⃣ ...creating cultural compatibility with OSS!
 
 I wanted to instill a compatible culture of empowerment and self-directed agency within the Moderna DSAI teams:
 
@@ -125,7 +136,9 @@ I wanted to instill a compatible culture of empowerment and self-directed agency
 -   Community: increased investment in ecosystem.
 :::
 
-## CBOSS vs. CDOSS
+# 💡 Idea 2: Articulate the value of OSS to your organization
+
+## 🔄 CBOSS vs. CDOSS
 
 [Articulated by Travis Oliphant](https://www.linkedin.com/pulse/who-governs-open-source-project-you-depend-travis-oliphant/), these are two different flavours of open source software.
 
@@ -134,7 +147,7 @@ I wanted to instill a compatible culture of empowerment and self-directed agency
 -   CDOSS: **C**ommunity-**D**riven **O**pen **S**ource **S**oftware
 :::
 
-## Diverse motivations
+## 🌏 Diverse 🌍 motivations 🌎
 
 ::: panel-tabset
 ## Services
@@ -171,7 +184,7 @@ OSS releases are primarily a marketing tool to attract new talent. OSS release h
 
 ---
 
-## Interested parties have motivations
+## 🎯 Interested parties have motivations
 
 | Party        | Interest                                                |
 |--------------|---------------------------------------------------------|
@@ -182,7 +195,7 @@ OSS releases are primarily a marketing tool to attract new talent. OSS release h
 
 You may need \>1 of these parties to have buy-in before you can release open source software.
 
-## Ways to articulate
+## 🗣️ Ways to articulate
 
 ::: {.panel-tabset}
 
