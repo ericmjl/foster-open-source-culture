@@ -5,6 +5,10 @@ format:
   revealjs:
     slide-number: c/t
 footer: ericmjl.github.io/foster-open-source-culture
+jupyter: oss-culture-scipy2024
+execute:
+  eval: false
+  echo: true
 ---
 
 ## 💁🏻‍♂️ About Me
@@ -65,7 +69,8 @@ I move through projects as my needs and interests evolve.
 ::: panel-tabset
 ## Old
 
-```python
+```{python}
+#| code-line-numbers: "1,"
 from pylab import *
 
 x = arange(0, 3, 1000)
@@ -76,7 +81,8 @@ plot(x, y)
 
 ## New
 
-```python
+```{python}
+#| code-line-numbers: 1,2
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -131,9 +137,9 @@ Mirroring sprints, [we run quarterly docathons](https://ericmjl.github.io/blog/2
 I wanted to instill a compatible culture of empowerment and self-directed agency within the Moderna DSAI teams:
 
 ::: incremental
--   Collaboration: stewarded and shared ownership of code.
--   Contribution: co-creation of new features.
--   Community: increased investment in ecosystem.
+-   **Collaboration**: stewarded and shared ownership of code.
+-   **Contribution**: co-creation of new features.
+-   **Community**: increased investment in ecosystem.
 :::
 
 # 💡 Idea 2: Articulate the value of OSS to your organization
@@ -228,11 +234,11 @@ You may need \>1 of these parties to have buy-in before you can release open sou
 - Articulate prospective leverage in internal work from external contributions.
 :::
 
-## How do we foster an open source culture within our companies?
+## 👉 You can foster an open source culture on your team!
 
 ::: incremental
-1. Import open source ways of working into the team.
-2. Articulate value to multiple stakeholders in a way that is aligned with their interests.
+1. **Internal**: Import open source ways of working into the team.
+2. **External**: Articulate value to multiple stakeholders in a way that is aligned with their interests.
 :::
 
 # ⭐️ Thank you!
