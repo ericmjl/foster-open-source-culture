@@ -36,14 +36,17 @@ jobs:
           quarto check jupyter
 
       - name: Render Quarto Project
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          path: ./index.qmd # By default, the current working dir is used i.e `quarto render .`
+        run: |
+          quarto render index.qmd --output-dir ./_site
 
-
-      - name: Publish to GitHub Pages (and render)
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Deploy slides
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+          personal_token: ${{ secrets.GHPAGES_TOKEN }}
+          publish_dir: ./_site/
+          publish_branch: gh-pages
+          allow_empty_commit: false
+          keep_files: false
+          force_orphan: true
+          enable_jekyll: false
+          disable_nojekyll: false
