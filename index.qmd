@@ -1,5 +1,5 @@
 ---
-author: Eric J. Ma
+author: ericmjl.github.io/foster-open-source-culture
 title: "🌟 How to foster an open source culture in your data science team"
 format:
   revealjs:
@@ -50,16 +50,16 @@ I move through projects as my needs and interests evolve.
 > Q: How do we foster a culture of open source within our data science team?
 
 ::: incremental
-1. Import open source ways of working into the team.
-2. Articulate value to multiple stakeholders in a way that is aligned with their interests.
+1.  Import open source ways of working into the team.
+2.  Articulate value to multiple stakeholders in a way that is aligned with their interests.
 :::
 
 # 💡 Idea 1: Import OSS culture
 
-## 🧐 Open source  was formative for my thinking
+## 🧐 Open source was formative for my thinking
 
-- SciPy 2015, Matplotlib Sprints.
-- Task: MEP12 examples gallery
+-   SciPy 2015, Matplotlib Sprints.
+-   Task: MEP12 examples gallery
 
 ![](./images/first-mpl-pr.webp)
 
@@ -96,12 +96,12 @@ The training steps, and repetition, helped me grow my skillset.
 
 ## 2️⃣ ...88 PRs later...
 
-![My first contributions to the open source world were with matplotlib.](./images/matplotlib.webp)
+![](./images/matplotlib.webp)
 
 ## 3️⃣ ...I knew that software skills mattered in data science...
 
-- [Hadley Wickham: You can't do data science in a GUI](https://www.youtube.com/watch?v=cpbtcsGE0OA)
-- Thinking like a toolbuilder, and a software developer, will help elevate our work as a data scientist.
+-   [Hadley Wickham: You can't do data science in a GUI](https://www.youtube.com/watch?v=cpbtcsGE0OA)
+-   Thinking like a toolbuilder, and a software developer, will help elevate our work as a data scientist.
 
 ## 4️⃣ ...and imported ways of working to my work and home team...
 
@@ -131,7 +131,6 @@ We invest time here to ensure the correctness of our work.
 We spend much less time in the future being burned by changes that introduced subtle bugs.
 
 We develop software like the best of the OSS world.
-
 
 ## Document
 
@@ -194,70 +193,69 @@ Community engagement gives a customer path to profitable services.
 OSS releases are primarily a marketing tool to attract new talent. OSS release has no direct impact on core products & services.
 :::
 
----
+------------------------------------------------------------------------
 
 [**C**ompany-**B**acked **O**pen **S**ource **S**oftware must fit strategically within organizational motivations]{style="font-size:92px"}
 
----
+------------------------------------------------------------------------
 
 ## What about goodwill?
 
 ::: incremental
-- Giving back _is_ my personal motivation!
-- Can be a deep source of motivation for the individual.
-- Reality: goodwill rarely is the slam-dunk winning argument.
-- We need to study individual motivations.
+-   Giving back *is* my personal motivation!
+-   Can be a deep source of motivation for the individual.
+-   Reality: goodwill rarely is the slam-dunk winning argument.
+-   We need to study individual motivations.
 :::
 
 ## 🎯 Interested parties have motivations
 
-| Party        | Interest                                                |
-|--------------|---------------------------------------------------------|
-| [Data Science]{style="color:red"} | [Building a professional portfolio.]{style="color:red"}                      |
-| [Legal]{style="color:orange"}        | [Protecting company IP.]{style="color:orange"} |
-| [Management]{style="color:green"}   | [Minimizing operational disruption.]{style="color:green"}                      |
-| [Executive]{style="color:blue"}    | [Enhancing reputation & value creation.]{style="color:blue"}             |
+| Party | Interest |
+|-----------------|-------------------------------------------------------|
+| [Data Science]{style="color:red"} | [Building a professional portfolio.]{style="color:red"} |
+| [Legal]{style="color:orange"} | [Protecting company IP.]{style="color:orange"} |
+| [Management]{style="color:green"} | [Minimizing operational disruption.]{style="color:green"} |
+| [Executive]{style="color:blue"} | [Enhancing reputation & value creation.]{style="color:blue"} |
 
 You may need \>1 of these parties to have buy-in before you can release open source software.
 
 ## 🗣️ Ways to articulate
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## Data Science
 
 **Goal:** Build professional portfolio.
 
-- Long-term investment in company's reputation as a technologically competent company.
-- Professional development opportunity for individual contributors.
+-   Long-term investment in company's reputation as a technologically competent company.
+-   Professional development opportunity for individual contributors.
 
 ## Legal
 
 **Goal:** Protect company IP.
 
-- Show evidence that open source release is not novel IP, using existing literature.
-- Articulate criteria used to evaluate whether contributions from within the company are open source-able or not.
+-   Show evidence that open source release is not novel IP, using existing literature.
+-   Articulate criteria used to evaluate whether contributions from within the company are open source-able or not.
 
 ## Management
 
 **Goal:** Minimize operational disruption.
 
-- Articulate set schedule for activities related to stewardship of OSS software, such as reviewing PRs.
-- Articulate prospective leverage in internal work from external contributions.
+-   Articulate set schedule for activities related to stewardship of OSS software, such as reviewing PRs.
+-   Articulate prospective leverage in internal work from external contributions.
 
 ## Executive
 
 **Goal:** Enhance reputation and value creation
 
-- Identify peer group companies that are engaged in similar activities.
-- Articulate prospective leverage in internal work from external contributions.
+-   Identify peer group companies that are engaged in similar activities.
+-   Articulate prospective leverage in internal work from external contributions.
 :::
 
 ## 👉 You can foster an open source culture for your org!
 
 ::: incremental
-1. **Internal**: Import open source ways of working into the team.
-2. **External**: Articulate value to multiple stakeholders in a way that is aligned with their interests.
+1.  **Internal**: Import open source ways of working into the team.
+2.  **External**: Articulate value to multiple stakeholders in a way that is aligned with their interests.
 :::
 
 # ⭐️ Thank you!
