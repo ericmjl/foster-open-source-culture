@@ -58,8 +58,7 @@ I move through projects as my needs and interests evolve.
 
 ## 🧐 Open source  was formative for my thinking
 
-- Year: 2015
-- Project: Matplotlib.
+- SciPy 2015, Matplotlib Sprints.
 - Task: MEP12 examples gallery
 
 ![](./images/first-mpl-pr.webp)
