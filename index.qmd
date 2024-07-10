@@ -31,7 +31,7 @@ Open Source Contributor, Developer, and Educator
 ## Personal
 
 -   [pyjanitor-devs/pyjanitor](https://github.com/pyjanitor-devs/pyjanitor/pulls?q=is:pr+author:@me+)
--   [ericmjl/nxviz](https://github.com/ericmjl/nxviz/pulls?q=is:pr+author:@me+)
+-   [ericmjl/Network-Analysis-Made-Simple](https://github.com/ericmjl/Network-Analysis-Made-Simple)
 -   [ericmjl/llamabot](https://github.com/ericmjl/llamabot/pulls?q=is:pr+author:@me+)
 
 ## Community
@@ -199,7 +199,7 @@ OSS releases are primarily a marketing tool to attract new talent. OSS release h
 ::: incremental
 - Giving back _is_ my personal motivation!
 - Can be a deep source of motivation for the individual.
-- Reality: Goodwill rarely is the slam-dunk winning argument.
+- Reality: goodwill rarely is the slam-dunk winning argument.
 - We need to study individual motivations.
 :::
 
@@ -247,7 +247,7 @@ You may need \>1 of these parties to have buy-in before you can release open sou
 - Articulate prospective leverage in internal work from external contributions.
 :::
 
-## 👉 You can foster an open source culture on your team!
+## 👉 You can foster an open source culture for your org!
 
 ::: incremental
 1. **Internal**: Import open source ways of working into the team.
