@@ -99,8 +99,7 @@ The training steps, and repetition, helped me grow my skillset.
 
 ![My first contributions to the open source world were with matplotlib.](./images/matplotlib.webp)
 
-
-## 3️⃣ ...then I realized software skills mattered...
+## 3️⃣ ...I knew that software skills mattered in data science...
 
 {{< video https://www.youtube.com/watch?v=cpbtcsGE0OA width="560" height="315" >}}
 
