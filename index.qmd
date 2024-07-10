@@ -186,7 +186,7 @@ OSS releases are primarily a marketing tool to attract new talent. OSS release h
 
 ---
 
-[Company-Backed Open Source Software must fit strategically within organizational motivations]{style="font-size:92px"}
+[**C**ompany-**B**acked **O**pen **S**ource **S**oftware must fit strategically within organizational motivations]{style="font-size:92px"}
 
 ---
 
