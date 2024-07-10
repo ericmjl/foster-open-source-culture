@@ -108,13 +108,13 @@ The training steps, and repetition, helped me grow my skillset.
 ::: panel-tabset
 ## Open
 
-Everything is viewable, clone-able, hackable, and contributable.
+Everything is viewable, clone-able, hackable, and contributable, just like the OSS world.
 
 ## Deploy
 
 We resist doing a treadmill of one-off projects.
 
-We build high power tools for ourselves, laboratory scientists, and computational scientists.
+We build high power tools for ourselves, laboratory scientists, and computational scientists, just like the OSS world.
 
 ## Refactor
 
@@ -122,15 +122,22 @@ We invest here to clarify our thinking about our domain problem.
 
 We cut future frustrations untangling messy code and fragile configuration.
 
+We develop software like the best of the OSS world.
+
 ## Test
 
 We invest time here to ensure the correctness of our work.
 
 We spend much less time in the future being burned by changes that introduced subtle bugs.
 
+We develop software like the best of the OSS world.
+
+
 ## Document
 
-Automation scales labour. We invest in documentation to scale our brain.
+OSS is under-funded and under-staffed, so there is much investment in automation and documentation.
+
+Automation scales labour. Documentation scales our brain.
 
 Mirroring sprints, [we run quarterly docathons](https://ericmjl.github.io/blog/2024/6/30/two-years-of-docathons-insights-and-lessons-learned/) that provide focused time for us to write high impact docs with high ROI.
 :::
